@@ -14,7 +14,7 @@
       - [Traditional Roles and Challenges](#traditional-roles-and-challenges)
       - [Evolution of Collaborative Workflows](#evolution-of-collaborative-workflows)
     - [Enable and Use Microsoft Fabric](#enable-and-use-microsoft-fabric)
-  - [](#)
+  - [Lakehouses in Microsoft Fabric](#lakehouses-in-microsoft-fabric)
 
 
 ## Learning Path: Get Started with Microsoft Fabric
@@ -111,4 +111,6 @@ Microsoft Fabric simplifies the analytics development process by unifying tools 
 
 If you are trying to enable a Fabric trial capacity in an M365 Developer tenant, then the tenant must be at least 90 days old; otherwise, you will receive an error message that "we cannot assign you a free Microsoft Fabrictrial capacity" error (see [here](https://community.fabric.microsoft.com/t5/Fabric-platform/Unable-to-Start-Fabric-Trial-Capacity/m-p/4353125)).
 
-### 
+### Lakehouses in Microsoft Fabric
+
+https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/1-introduction
