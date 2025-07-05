@@ -132,12 +132,15 @@ Lakehouse Explorer:
 - The **Tables** folder contains talbes you can query using SQL semantics. These tables are based on the Delta Lake format, commonly used in Apache Spark.
 - The **Files** folder contains data files in the OneLake store for the lakehouse that are't associated with managed delta tables. 
 
-You can also create *shortcuts* in this folder to reference data stored externally.
-
 Preview of uploading a CSV file to a lakehouse:
 
 <img src='images/1751711197041.png' width='750'/>
 
-You can also get data from a shortcut:
+You can also create *shortcuts* in this folder to reference data stored externally.
 
 <img src='images/1751711332516.png' width='750'/>
+
+You can create a table from a CSV file:
+
+<img src='images/1751711480834.png' width='750'/>
+
