@@ -113,4 +113,31 @@ If you are trying to enable a Fabric trial capacity in an M365 Developer tenant,
 
 ### Lakehouses in Microsoft Fabric
 
-https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/1-introduction
+[Get started with lakehouses in Microsoft Fabric](https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/1-introduction)
+
+In a data lake, data is stored as files without imposing a fixed schema for storage. This benefits data analysts. 
+
+Data engineers, however, still need relational aspects, so a *data lakehouse* is used, in  which data is stored in files in a data lake and a relational schema is applied to them as a metadata layer so that they can be queried using traditional SQL semantics.
+
+In Microsoft Fabric, a lakehouse provides highly scalable storage in a *OneLake* store (built on Azure Data Lake Storage Gen2) with a metastore for relational objects, such as tables and views, based on the open source *Delta Lake* table format. Delta Lake enables you to define a schema of tables in your lakehouse that you can query using SQL.
+
+Creating a lakehouse in Microsoft Fabric:
+
+<img src='images/20250705051940.png' width='750'/>
+
+Lakehouse Explorer:
+
+<img src='images/1751710827794.png' width='550'/>
+
+- The **Tables** folder contains talbes you can query using SQL semantics. These tables are based on the Delta Lake format, commonly used in Apache Spark.
+- The **Files** folder contains data files in the OneLake store for the lakehouse that are't associated with managed delta tables. 
+
+You can also create *shortcuts* in this folder to reference data stored externally.
+
+Preview of uploading a CSV file to a lakehouse:
+
+<img src='images/1751711197041.png' width='750'/>
+
+You can also get data from a shortcut:
+
+<img src='images/1751711332516.png' width='750'/>
