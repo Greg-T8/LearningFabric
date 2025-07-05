@@ -144,3 +144,4 @@ You can create a table from a CSV file:
 
 <img src='images/1751711480834.png' width='750'/>
 
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/01-lakehouse.html
